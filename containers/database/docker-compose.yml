@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+
+  janusgraph:
+    image: janusgraph/janusgraph
+    container_name: janusgraph
+    ports:
+      - '127.0.0.1:8182:8182'
+    networks:
+      - public
+
+
+networks:
+  public:
+    external: true
+
+

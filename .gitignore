@@ -1,0 +1,23 @@
+# 
+# emacs backups
+*~
+
+# IntelliJ 
+.idea
+.iml
+.scannerwork
+.sonar
+
+
+*.iml
+*/*.iml
+
+# target
+target
+
+testing
+
+.DS_Store
+
+
+
